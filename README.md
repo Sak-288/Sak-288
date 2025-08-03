@@ -8,5 +8,3 @@
 - 📫 How to reach me: aminesakoute288@gmail.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: Loves poyo
-
-{{ wakatimeDoubleCategoryBar "💾 Languages:" wakatimeData.Languages "💼 Projects:" wakatimeData.Projects 5 }}
