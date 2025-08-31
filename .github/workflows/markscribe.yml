@@ -3,7 +3,7 @@ name: Update README
 on:
   schedule:
     - cron: "0 * * * *" # runs every hour
-  workflow_dispatch: # allows manual run
+  workflow_dispatch: # lets you run it manually
 
 jobs:
   build:
@@ -19,7 +19,12 @@ jobs:
       - name: Install markscribe
         run: go install github.com/muesli/markscribe@latest
 
+      - name: Add Go bin to PATH
+        run: echo "$HOME/go/bin" >> $GITHUB_PATH
+
       - name: Generate README
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: markscribe -write README.md README.md.tpl
 
       - name: Commit & Push
@@ -29,4 +34,3 @@ jobs:
           git add README.md
           git commit -m "Update README with WakaTime stats" || echo "No changes"
           git push
-
