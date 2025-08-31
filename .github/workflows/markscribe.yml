@@ -34,3 +34,12 @@ jobs:
           git add README.md
           git commit -m "Update README with WakaTime stats" || echo "No changes"
           git push
+
+      - name: Restore Go module cache
+        if: exists('go.sum')
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/go-build
+            ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
