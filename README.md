@@ -9,4 +9,5 @@
 - 😄 Pronouns: [poyo]
 - ⚡ Fun fact: [Loves poyo]
 
-![My HackClubber Stats](https://github-readme-stats.hackclub.dev/api/wakatime?username=Sak-288&api_domain=hackatime.hackclub.com&custom_title=My+HackClubber+Stats&layout=compact&cache_seconds=0&langs_count=100&theme=tokyonight)
+![My HackClubber Stats]([https://github-readme-stats.hackclub.dev/api/wakatime?username=Sak-288&api_domain=hackatime.hackclub.com&custom_title=My+HackClubber+Stats&layout=compact&cache_seconds=0&langs_count=100&theme=tokyonight](https://github-readme-stats.hackclub.dev/api/wakatime?username=18012&api_domain=hackatime.hackclub.com&&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8&theme=tokyonight
+)
