@@ -8,3 +8,5 @@
 - 📫 How to reach me: [aminesakoute288@gmail.com]
 - 😄 Pronouns: [poyo]
 - ⚡ Fun fact: [Loves poyo]
+
+![My HackClubber Stats](https://github-readme-stats.hackclub.dev/api/wakatime?username=Sak-288&api_domain=hackatime.hackclub.com&custom_title=My+HackClubber+Stats&layout=compact&cache_seconds=0&langs_count=100&theme=tokyonight)
